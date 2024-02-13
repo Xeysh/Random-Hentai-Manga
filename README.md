@@ -11,4 +11,4 @@ U can watch videos about how to get discord bot token.
 
 You need to active the 3 buttons like in the image.
 
-https://i.imgur.com/TdRQlGF.png
+![Activate Buttons](https://i.imgur.com/TdRQlGF.png)
