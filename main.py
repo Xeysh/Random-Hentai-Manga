@@ -28,7 +28,6 @@ def generate_random_manga_url():
 
 @tree.command(name="manga", description="Random manga searcher with nhentai.net.")
 async def manga(interaction: discord.Interaction):
-    member = interaction.user
 
     while True:
         url = generate_random_manga_url()
@@ -37,10 +36,10 @@ async def manga(interaction: discord.Interaction):
         if r.status_code == 404:
             continue
         else:
-            url_parts = [url[i+21] for i in range(6)]
+            download = [url[i+21] for i in range(6)]
             embed = discord.Embed(
                 title="Here's your manga Master!",
-                description=f"Manga: {url}\nDownload: {'https://nhentai.to/g/' + ''.join(url_parts) + '/download'}",
+                description=f"Manga: {url}\nDownload: {'https://nhentai.to/g/' + ''.join(download) + '/download'}",
                 color=discord.Color.dark_purple()
             )
             await interaction.response.send_message(embed=embed)
