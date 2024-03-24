@@ -1,7 +1,7 @@
 # Random Hentai Manga
 An Random hentai manga finder using nhentai.net Leave a star for more!
 
-### Tutorial
+# Tutorial
 
 ### How to get YOUR_BOT_TOKEN?
 
