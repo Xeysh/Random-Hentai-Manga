@@ -1,5 +1,5 @@
 # Random-Hentai-Manga
-An simple random hentai manga finder using nhentai.net Leave a star for more!
+An Random hentai manga finder using nhentai.net Leave a star for more!
 
 ## Tutorial ##
 
