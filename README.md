@@ -1,13 +1,13 @@
-# Random-Hentai-Manga
+# Random Hentai Manga
 An Random hentai manga finder using nhentai.net Leave a star for more!
 
-## Tutorial ##
+### Tutorial
 
-# How to get YOUR_BOT_TOKEN?
+### How to get YOUR_BOT_TOKEN?
 
 - U can watch videos about how to get discord bot token.
 
-# Important
+### Important
 
 - You need to active the 3 buttons like in the image.
 
