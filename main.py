@@ -38,7 +38,7 @@ async def manga(interaction: discord.Interaction):
         else:
             download = [url[i+21] for i in range(6)]
             embed = discord.Embed(
-                title="Here's your manga Master!",
+                title="Here's your manga!",
                 description=f"Manga: {url}\nDownload: {'https://nhentai.to/g/' + ''.join(download) + '/download'}",
                 color=discord.Color.dark_purple()
             )
